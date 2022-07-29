@@ -22,10 +22,10 @@
 </head>
 
 <body>
-     <div style="position:fixed;left:20px;bottom:20px;z-index:999999;">
+<div style="position:fixed;left:20px;bottom:20px;z-index:9999">
 <a href="https://api.whatsapp.com/send?phone=+6285100257920&text=Halo">
-<button style="background:#32C03C;vertical-align:center;height:36px;border-radius:5px">
-<img src="https://web.whatsapp.com/img/favicon/1x/favicon.png"> Whatsapp Kami</button></a>
+<button style="background:#32C03C;vertical-align:center;height:36px;border-radius:5px;color:white;">
+<img class="-mt-3" src="https://web.whatsapp.com/img/favicon/1x/favicon.png"> Whatsapp Kami</button></a>
 </div>
     <!--============================= HEADER =============================-->
     <div class="header-topbar">
@@ -37,7 +37,7 @@
                             <span class="icon-phone"></span>08123456789
                         </div>
                         <div class="header-top_list">
-                            <span class="icon-envelope-open"></span>infohambalang@.gmail.com
+                            <span class="icon-envelope-open"></span>infohambalang@gmail.com
                         </div>
                         <div class="header-top_list">
                             <span class="icon-location-pin"></span>Hambalang, Kec. Citeureup, Bogor
@@ -151,23 +151,21 @@
                                 <div class="contact-details">
                                     <i class="fa fa-user" aria-hidden="true"></i>
                                     <h6>Alamat</h6>
-                                    <p> Jl. Raya Siliwangi Km. 10  
-                                        <br> Gg. Melati Rt. 03/ Rw.07 Bekasi,
-                                        <br> Jawa Barat, INA. 17151</p>
+                                    <p> Hambalang, Kec. Citeureup, Kabupaten Bogor, Jawa Barat 16810 </p>
                                     </div>
                                     <br>
                                     <div class="contact-details">
                                         <i class="fa fa-envelope-o" aria-hidden="true"></i>
                                         <h6>Email</h6>
-                                        <p>info@mtstarfalbantargebang.sch.id 
-                                            <br> www.mtstarfalbantargebang.sch.id
+                                        <p>infohambalang@.gmail.com
+                                            <br> 
                                         </p>
                                     </div>
                                     <br>
                                     <div class="contact-details">
                                         <i class="fa fa-phone" aria-hidden="true"></i>
                                         <h6>Phone</h6>
-                                        <p>+628510 025 7920</p>
+                                        <p>08123456789</p>
                                     </div>
                                 </div>
                             </div>

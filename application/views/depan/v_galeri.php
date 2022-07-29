@@ -27,10 +27,10 @@
 </head>
 
 <body>
-    <div style="position:fixed;left:20px;bottom:20px;z-index:999999;">
+<div style="position:fixed;left:20px;bottom:20px;z-index:9999">
 <a href="https://api.whatsapp.com/send?phone=+6285100257920&text=Halo">
-<button style="background:#32C03C;vertical-align:center;height:36px;border-radius:5px">
-<img src="https://web.whatsapp.com/img/favicon/1x/favicon.png"> Whatsapp Kami</button></a>
+<button style="background:#32C03C;vertical-align:center;height:36px;border-radius:5px;color:white;">
+<img class="-mt-3" src="https://web.whatsapp.com/img/favicon/1x/favicon.png"> Whatsapp Kami</button></a>
 </div>
   <!--============================= HEADER =============================-->
   <div class="header-topbar">
@@ -42,7 +42,7 @@
                             <span class="icon-phone"></span>08123456789
                         </div>
                         <div class="header-top_list">
-                            <span class="icon-envelope-open"></span>infohambalang@.gmail.com
+                            <span class="icon-envelope-open"></span>infohambalang@gmail.com
                         </div>
                         <div class="header-top_list">
                             <span class="icon-location-pin"></span>Hambalang, Kec. Citeureup, Bogor
@@ -117,7 +117,7 @@
 <!-- Style 2 -->
 <div class="row">
   <div class="col-md-12">
-    <h3 class="gallery-style">Gallery Photo</h3>
+    <h3 class="gallery-style">Gallery Hambalang</h3>
   </div>
 </div><br>
 <div class="row">

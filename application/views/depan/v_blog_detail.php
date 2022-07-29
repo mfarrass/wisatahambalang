@@ -51,7 +51,7 @@
                             <span class="icon-phone"></span>08123456789
                         </div>
                         <div class="header-top_list">
-                            <span class="icon-envelope-open"></span>infohambalang@.gmail.com
+                            <span class="icon-envelope-open"></span>infohambalang@gmail.com
                         </div>
                         <div class="header-top_list">
                             <span class="icon-location-pin"></span>Hambalang, Kec. Citeureup, Bogor

@@ -10,7 +10,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>MTs Tarbiyatul Falah | Data Siswa</title>
+  <title>Wisata Hambalang | Penginapan</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <link rel="shorcut icon" type="text/css" href="<?php echo base_url().'assets/images/favicon.png'?>">
@@ -115,7 +115,7 @@
 
         <li>
           <a href="<?php echo base_url().'admin/guru'?>">
-            <i class="fa fa-graduation-cap"></i> <span>Data Guru</span>
+            <i class="fa fa-graduation-cap"></i> <span>Desa</span>
             <span class="pull-right-container">
               <small class="label pull-right"></small>
             </span>
@@ -125,14 +125,14 @@
         <li class="treeview active">
           <a href="#">
             <i class="fa fa-user"></i>
-            <span>Kesiswaan</span>
+            <span>Penginapan</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>
           </a>
           <ul class="treeview-menu">
-            <li class="active"><a href="<?php echo base_url().'admin/siswa'?>"><i class="fa fa-users"></i> Data Siswa</a></li>
-            <li><a href="#"><i class="fa fa-star-o"></i> Prestasi Siswa</a></li>
+            <li class="active"><a href="<?php echo base_url().'admin/siswa'?>"><i class="fa fa-users"></i> Data Penginapan</a></li>
+            <li><a href="#"><i class="fa fa-star-o"></i> Penginapan Terbaik</a></li>
 
           </ul>
         </li>
@@ -175,12 +175,12 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Data Siswa
+        Penginapan
         <small></small>
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-        <li class="active">Siswa</li>
+        <li class="active">Penginapan</li>
       </ol>
     </section>
 
@@ -192,7 +192,7 @@
 
           <div class="box">
             <div class="box-header">
-              <a class="btn btn-success btn-flat" data-toggle="modal" data-target="#myModal"><span class="fa fa-plus"></span> Add Siswa</a>
+              <a class="btn btn-success btn-flat" data-toggle="modal" data-target="#myModal"><span class="fa fa-plus"></span> Add Penginapan</a>
             </div>
             <!-- /.box-header -->
             <div class="box-body">
@@ -202,7 +202,7 @@
           					<th>Photo</th>
           					<th>NIS</th>
           					<th>Nama</th>
-          					<th>Jenis Kelamin</th>
+          					<!-- <th>Jenis Kelamin</th> -->
                     <th>Kelas</th>
                     <th style="text-align:right;">Aksi</th>
                 </tr>
@@ -464,7 +464,7 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><span class="fa fa-close"></span></span></button>
-                        <h4 class="modal-title" id="myModalLabel">Add Siswa</h4>
+                        <h4 class="modal-title" id="myModalLabel">Tambahkan Penginapan</h4>
                     </div>
                     <form class="form-horizontal" action="<?php echo base_url().'admin/siswa/simpan_siswa'?>" method="post" enctype="multipart/form-data">
                     <div class="modal-body">
@@ -483,7 +483,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="form-group">
+                                    <!-- <div class="form-group">
                                         <label for="inputUserName" class="col-sm-4 control-label">Jenis Kelamin</label>
                                         <div class="col-sm-7">
                                            <div class="radio radio-info radio-inline">
@@ -495,7 +495,7 @@
                                                 <label for="inlineRadio2"> Perempuan </label>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> -->
 
                                     <div class="form-group">
                                         <label for="inputUserName" class="col-sm-4 control-label">Kelas</label>
@@ -547,7 +547,7 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><span class="fa fa-close"></span></span></button>
-                        <h4 class="modal-title" id="myModalLabel">Edit Guru</h4>
+                        <h4 class="modal-title" id="myModalLabel">Edit Desa</h4>
                     </div>
                     <form class="form-horizontal" action="<?php echo base_url().'admin/siswa/update_siswa'?>" method="post" enctype="multipart/form-data">
                     <div class="modal-body">
@@ -567,7 +567,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="form-group">
+                                    <!-- <div class="form-group">
                                         <label for="inputUserName" class="col-sm-4 control-label">Jenis Kelamin</label>
                                         <div class="col-sm-7">
                                           <?php if($jenkel=='L'):?>
@@ -590,7 +590,7 @@
                                             </div>
                                           <?php endif;?>
                                         </div>
-                                    </div>
+                                    </div> -->
 
                                     <div class="form-group">
                                         <label for="inputUserName" class="col-sm-4 control-label">Kelas</label>
@@ -652,7 +652,7 @@
                     <div class="modal-body">
 							       <input type="hidden" name="kode" value="<?php echo $id;?>"/>
                      <input type="hidden" value="<?php echo $photo;?>" name="gambar">
-                            <p>Apakah Anda yakin mau menghapus Siswa <b><?php echo $nama;?></b> ?</p>
+                            <p>Apakah Anda yakin mau menghapus Penginapan <b><?php echo $nama;?></b> ?</p>
 
                     </div>
                     <div class="modal-footer">
@@ -715,7 +715,7 @@
         <script type="text/javascript">
                 $.toast({
                     heading: 'Success',
-                    text: "Siswa Berhasil disimpan ke database.",
+                    text: "Penginapan Berhasil disimpan ke database.",
                     showHideTransition: 'slide',
                     icon: 'success',
                     hideAfter: false,
@@ -727,7 +727,7 @@
         <script type="text/javascript">
                 $.toast({
                     heading: 'Info',
-                    text: "Siswa berhasil di update",
+                    text: "Penginapan berhasil di update",
                     showHideTransition: 'slide',
                     icon: 'info',
                     hideAfter: false,
@@ -739,7 +739,7 @@
         <script type="text/javascript">
                 $.toast({
                     heading: 'Success',
-                    text: "Siswa Berhasil dihapus.",
+                    text: "Penginapan Berhasil dihapus.",
                     showHideTransition: 'slide',
                     icon: 'success',
                     hideAfter: false,

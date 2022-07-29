@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -30,7 +29,7 @@
 </head>
 
 <body>
-    <div style="position:fixed;left:20px;bottom:20px;z-index:9999">
+<div style="position:fixed;left:20px;bottom:20px;z-index:9999">
 <a href="https://api.whatsapp.com/send?phone=+6285100257920&text=Halo">
 <button style="background:#32C03C;vertical-align:center;height:36px;border-radius:5px;color:white;">
 <img class="-mt-3" src="https://web.whatsapp.com/img/favicon/1x/favicon.png"> Whatsapp Kami</button></a>
@@ -45,7 +44,7 @@
                             <span class="icon-phone"></span>08123456789
                         </div>
                         <div class="header-top_list">
-                            <span class="icon-envelope-open"></span>infohambalang@.gmail.com
+                            <span class="icon-envelope-open"></span>infohambalang@gmail.com
                         </div>
                         <div class="header-top_list">
                             <span class="icon-location-pin"></span>Hambalang, Kec. Citeureup, Bogor
@@ -142,7 +141,7 @@
                             <h4>Villa Bukit Hambalang.
                             <br>HTM : Rp. 5.000 - 20.000</h4>
                             <div class="slider-btn">
-                                <a href="<?php echo site_url('guru');?>" class="btn btn-default">Learn more</a>
+                                <a href="<?php echo site_url('artikel');?>" class="btn btn-default">Learn more</a>
                             </div>
                         </div>
                     </div>
@@ -155,7 +154,7 @@
                             <h4>Taman Fathan Hambalang
                             <br>HTM : Rp. 5.000</h4>
                             <div class="slider-btn">
-                                <a href="<?php echo site_url('galeri');?>" class="btn btn-default">Learn more</a>
+                                <a href="<?php echo site_url('artikel');?>" class="btn btn-default">Learn more</a>
                             </div>
                         </div>
                     </div>

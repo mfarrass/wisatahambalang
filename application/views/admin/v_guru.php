@@ -10,7 +10,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>MTs Tarbiyatul Falah | Data Guru</title>
+  <title>Wisata Hambalang | Desa</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <link rel="shorcut icon" type="text/css" href="<?php echo base_url().'assets/images/favicon.png'?>">
@@ -115,7 +115,7 @@
 
         <li class="active">
           <a href="<?php echo base_url().'admin/guru'?>">
-            <i class="fa fa-graduation-cap"></i> <span>Data Guru</span>
+            <i class="fa fa-graduation-cap"></i> <span>Desa</span>
             <span class="pull-right-container">
               <small class="label pull-right"></small>
             </span>
@@ -125,14 +125,14 @@
         <li class="treeview">
           <a href="#">
             <i class="fa fa-user"></i>
-            <span>Kesiswaan</span>
+            <span>Penginapan</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="<?php echo base_url().'admin/siswa'?>"><i class="fa fa-users"></i> Data Siswa</a></li>
-            <li><a href="#"><i class="fa fa-star-o"></i> Prestasi Siswa</a></li>
+            <li><a href="<?php echo base_url().'admin/siswa'?>"><i class="fa fa-users"></i> Penginapan</a></li>
+            <li><a href="#"><i class="fa fa-star-o"></i> Penginapan Terbaik</a></li>
 
           </ul>
         </li>
@@ -175,12 +175,11 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Data Guru
-        <small></small>
+      Sturktur Desa        <small></small>
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-        <li class="active">Guru</li>
+        <li class="active">Desa</li>
       </ol>
     </section>
 

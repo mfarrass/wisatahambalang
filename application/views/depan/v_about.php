@@ -24,10 +24,10 @@
 </head>
 
 <body>
-     <div style="position:fixed;left:20px;bottom:20px;z-index:999999;">
+<div style="position:fixed;left:20px;bottom:20px;z-index:9999">
 <a href="https://api.whatsapp.com/send?phone=+6285100257920&text=Halo">
-<button style="background:#32C03C;vertical-align:center;height:36px;border-radius:5px;">
-<img src="https://web.whatsapp.com/img/favicon/1x/favicon.png"> Whatsapp Kami</button></a>
+<button style="background:#32C03C;vertical-align:center;height:36px;border-radius:5px;color:white;">
+<img class="-mt-3" src="https://web.whatsapp.com/img/favicon/1x/favicon.png"> Whatsapp Kami</button></a>
 </div>
     <!--============================= HEADER =============================-->
     <div class="header-topbar">
@@ -39,7 +39,7 @@
                             <span class="icon-phone"></span>08123456789
                         </div>
                         <div class="header-top_list">
-                            <span class="icon-envelope-open"></span>infohambalang@.gmail.com
+                            <span class="icon-envelope-open"></span>infohambalang@gmail.com
                         </div>
                         <div class="header-top_list">
                             <span class="icon-location-pin"></span>Hambalang, Kec. Citeureup, Bogor
@@ -139,28 +139,18 @@
     <div class="container">
         <div class="row">
             <div class="col-md-7">
-                <h2>Moto</h2>
+                <h2>VISI</h2>
                 <p>
                 </p>
-                <p>“Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem modi numquam hic?”<p>
- <h3>Judul</h3><p>
-1.	Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam tempore debitis dolores!<p>
-2.	Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem modi numquam hic?<p>
-3.	Lorem ipsum dolor sit amet, consectetur adipisicing.
+                <p>“Terwujudnya masyarakat Desa Hambalang yang Bersih, Relegius, Sejahtera, Rapi dan Indah melalui Akselerasi Pembangunan yang berbasis Keagamaan, Budaya Hukum dan Berwawasan Lingkungan dengan berorentasi pada peningkatan Kinerja Aparatur dan Pemberdayaan Masyarakat”<p>
+                <h2>Misi</h2>
+            <ul class="list-group">
+            <li class="list-group-item">Pembangunan Jangka Panjang.</li>
+            <li class="list-group-item">Melanjutkan pembangunan desa yang belum terlaksana.</li>
+            <li class="list-group-item">Meningkatkan kerjasama antara pemerintah desa dengan lembaga desa yang ada.</li>
+            <li class="list-group-item">Meningkatkan kesejahtraan masyarakat desa dengan meningkatkan sarana dan prasarana ekonomi warga</li>  
+            </ul>
 
-                </p>
-                <p>
-<h3>Judul</h3><p>
-1.	Lorem ipsum dolor sit amet<p>
-2.	Lorem ipsum dolor sit amet<p>
-3.	Lorem ipsum 
-                    <p>
-<h3>Judul</h3><p>
-1.	Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem modi numquam hic?<p>
-2.	Lorem ipsum dolor sit amet consectetur.<p>
-3.	Lorem ipsum dolor sit, amet consectetur adipisicing elit.<p>
-    
-                </p>
                 </div>
                 <div class="col-md-5">
                     <img src="<?php echo base_url().'theme/images/community.png'?>" class="img-fluid" alt="#">

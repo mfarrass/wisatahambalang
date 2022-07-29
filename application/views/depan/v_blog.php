@@ -28,10 +28,10 @@
 </head>
 
 <body>
-    <div style="position:fixed;left:20px;bottom:20px;z-index:999999;">
+<div style="position:fixed;left:20px;bottom:20px;z-index:9999">
 <a href="https://api.whatsapp.com/send?phone=+6285100257920&text=Halo">
-<button style="background:#32C03C;vertical-align:center;height:36px;border-radius:5px">
-<img src="https://web.whatsapp.com/img/favicon/1x/favicon.png"> Whatsapp Kami</button></a>
+<button style="background:#32C03C;vertical-align:center;height:36px;border-radius:5px;color:white;">
+<img class="-mt-3" src="https://web.whatsapp.com/img/favicon/1x/favicon.png"> Whatsapp Kami</button></a>
 </div>
  <!--============================= HEADER =============================-->
  <div class="header-topbar">
@@ -43,7 +43,7 @@
                             <span class="icon-phone"></span>08123456789
                         </div>
                         <div class="header-top_list">
-                            <span class="icon-envelope-open"></span>infohambalang@.gmail.com
+                            <span class="icon-envelope-open"></span>infohambalang@gmail.com
                         </div>
                         <div class="header-top_list">
                             <span class="icon-location-pin"></span>Hambalang, Kec. Citeureup, Bogor
@@ -117,7 +117,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-8">
-              <?php echo $this->session->flashdata('msg');?>
+              <?php echo $this->session->flashdata('msg');?> 
               <?php foreach ($data->result() as $row) : ?>
                 <div class="blog-single-item">
                     <div class="blog-img_block">
@@ -184,7 +184,7 @@
                     <p><?php echo date('Y');?> © HIMASI UNAS </a>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 h6">
                     <div class="sitemap">
                         <h3>Menu Utama</h3>
                         <ul>
@@ -196,7 +196,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 h6">
                   <div class="sitemap">
                       <h3>Lainnya</h3>
                       <ul>
@@ -208,10 +208,10 @@
                       </ul>
                   </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 h6">
                     <div class="address">
                         <h3>Hubungi Kami</h3>
-                        <p><span>Alamat: </span> Hambalang, Kec. Citeureup, Kabupaten Bogor, Jawa Barat 16810 </p>
+                        <p><span>Alamat: </span> <br> Hambalang, Kec. Citeureup, Kabupaten Bogor, Jawa Barat 16810 </p>
                         <p><span>Email: </span> infohambalang@.gmail.com
                             <br> Phone : 08123456789 </p>
                             <ul class="footer-social-icons">

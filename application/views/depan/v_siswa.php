@@ -5,7 +5,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Guru</title>
+    <title>Penginapan</title>
     <link rel="shorcut icon" href="<?php echo base_url().'theme/images/icon.png'?>">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="<?php echo base_url().'theme/css/bootstrap.min.css'?>">
@@ -24,10 +24,10 @@
 </head>
 
 <body>
-    <div style="position:fixed;left:20px;bottom:20px;z-index:999999;">
+<div style="position:fixed;left:20px;bottom:20px;z-index:9999">
 <a href="https://api.whatsapp.com/send?phone=+6285100257920&text=Halo">
-<button style="background:#32C03C;vertical-align:center;height:36px;border-radius:5px">
-<img src="https://web.whatsapp.com/img/favicon/1x/favicon.png"> Whatsapp Kami</button></a>
+<button style="background:#32C03C;vertical-align:center;height:36px;border-radius:5px;color:white;">
+<img class="-mt-3" src="https://web.whatsapp.com/img/favicon/1x/favicon.png"> Whatsapp Kami</button></a>
 </div>
   <!--============================= HEADER =============================-->
   <div class="header-topbar">
@@ -39,7 +39,7 @@
                             <span class="icon-phone"></span>08123456789
                         </div>
                         <div class="header-top_list">
-                            <span class="icon-envelope-open"></span>infohambalang@.gmail.com
+                            <span class="icon-envelope-open"></span>infohambalang@gmail.com
                         </div>
                         <div class="header-top_list">
                             <span class="icon-location-pin"></span>Hambalang, Kec. Citeureup, Bogor
