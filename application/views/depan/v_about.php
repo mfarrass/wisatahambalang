@@ -144,7 +144,7 @@
                 </p>
                 <p>“Terwujudnya masyarakat Desa Hambalang yang Bersih, Relegius, Sejahtera, Rapi dan Indah melalui Akselerasi Pembangunan yang berbasis Keagamaan, Budaya Hukum dan Berwawasan Lingkungan dengan berorentasi pada peningkatan Kinerja Aparatur dan Pemberdayaan Masyarakat”<p>
                 <h2>Misi</h2>
-            <ul class="list-group">
+            <ul class="list-group rounded">
             <li class="list-group-item">Pembangunan Jangka Panjang.</li>
             <li class="list-group-item">Melanjutkan pembangunan desa yang belum terlaksana.</li>
             <li class="list-group-item">Meningkatkan kerjasama antara pemerintah desa dengan lembaga desa yang ada.</li>
@@ -173,7 +173,7 @@
                             <p class="quote_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate soluta illum dolores, quam harum vitae autem quis laudantium consequatur quidem nobis earum ullam minus fugiat ratione!</p>
                             <div class="testi-img_block">
                                 <img src="<?php echo base_url().'theme/images/student-1.png'?>" class="img-fluid" alt="#">
-                                <p><span>Hernandez Alvaro</span>Wisatawan</p>
+                                <p><span>Jonathan Aditya</span>Wisatawan</p>
                             </div>
                         </div>
                         <div class="quote">
@@ -181,7 +181,7 @@
                             <p class="quote_text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum in illo modi blanditiis commodi eveniet illum, quia totam natus aspernatur, quos, eos pariatur doloribus odio quam explicabo sint. Dolor, numquam! </p>
                             <div class="testi-img_block">
                                 <img src="<?php echo base_url().'theme/images/student-2.png'?>" class="img-fluid" alt="#">
-                                <p><span>Elanoar Rigby</span>Warga Hambalang</p>
+                                <p><span>Citra Ariska</span>Warga Hambalang</p>
                             </div>
                         </div>
                     </div>
